@@ -31,6 +31,9 @@ function App() {
       });
       setPokemonChosen(true);
     })
+    .catch(err => {
+      console.log('Pokemon not found');
+    })
   }
 
   return(
