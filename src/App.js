@@ -44,6 +44,7 @@ function App() {
                onChange={(event) => {
                 setPokemonName(event.target.value)
                 }}
+                placeholder='Type to search'
         />
         <button onClick={searchPokemon}>Search Pokemon</button>
       </div>
